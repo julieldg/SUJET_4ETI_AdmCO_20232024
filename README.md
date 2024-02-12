@@ -89,7 +89,8 @@ Pour chaque question, indiquez vos sites choisis pour reference ( où le prompt 
 'git config' permet de configurer les paramètres de Git. Les informations minimales à renseigner sont le nom d'utilisateur et l'adresse e-mail associée aux commits.
 
 1. Quelles sont les commandes de bases git ? a quoi servent elles ?
-   Les commandes de base de Git incluent git init pour initialiser un nouveau dépôt, git add pour ajouter des fichiers à l'index, git commit pour enregistrer les modifications dans l'historique, git push pour pousser les modifications vers un dépôt distant, et git pull pour récupérer les modifications depuis un dépôt distant. Ces commandes sont essentielles pour la gestion des versions et la collaboration dans un projet Git.
+   
+Les commandes de base de Git incluent git init pour initialiser un nouveau dépôt, git add pour ajouter des fichiers à l'index, git commit pour enregistrer les modifications dans l'historique, git push pour pousser les modifications vers un dépôt distant, et git pull pour récupérer les modifications depuis un dépôt distant. Ces commandes sont essentielles pour la gestion des versions et la collaboration dans un projet Git.
 
 Expliquez a quoi correspond ce worklow et pourquoi c'est une bonne pratique 
 ![ Workflow git ](images/git-model@2x_m.png)
