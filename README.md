@@ -29,6 +29,9 @@ if __name__ == '__main__':
 
   print('Code executed under the scope: ', __name__)
 ```
+
+Ce code définit une fonction add(x, y) qui prend deux paramètres x et y, les additionne pour obtenir z et affiche un message indiquant que la fonction add() est exécutée, puis retourne z. Ensuite, il vérifie si le nom du module est '__main__', si c'est le cas, il demande à l'utilisateur d'entrer deux nombres, appelle la fonction add() avec ces nombres convertis en entiers, puis affiche le résultat de l'addition et un message indiquant que le code est exécuté sous la portée __name__.
+
 Pour chaque question, indiquez vos sites choisis pour reference ( où le prompt de l'outil d'IA utilisé)
 
   1. A quoi sert requirments.txt ?
