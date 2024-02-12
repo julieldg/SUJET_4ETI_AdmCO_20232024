@@ -1,7 +1,5 @@
 # SUJET_4ETI_AdmCO_20232024 Julie
 
-![ Bonnes Pratiques](images/Bonnes_Pratiques_m.jpg)
-
 **Activités AdmCo Partie 1 2023-2024**
 
 
@@ -109,7 +107,10 @@ Expliquez a quoi correspond ce worklow et pourquoi c'est une bonne pratique
 
  Pour chaque exercice, l'objectif de ce dernier est expliqué. De plus il y a la réalisation qui est détaillée ainsi que le lancement du programme, si il y a quelques chose d'inhabituelle. J'y ai rajouté aussi l'arborescence du projet, dès qu'il est devenu un peu complexe.
 
-
+Dès qu'il faut installer des packages, la bonne pratique est de se mettre dans un environnement virtuel avec la commande :
+"python3 -m venv test"
+puis :
+"source ./venv/bin/activate "
 
 
 **Ressources utilisées** 
