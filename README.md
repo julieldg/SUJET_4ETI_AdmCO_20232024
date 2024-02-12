@@ -47,27 +47,53 @@ Pour chaque question, indiquez vos sites choisis pour reference ( où le prompt 
 
   1. A quoi sert requirments.txt ?
 
+     Un fichier requirements.txt est utile pour que sur un même projet tout le monde est le même environnement virtuel.
+
   1. A quoi ressemble un module en python ?
+
+     Un module en python est un fichier contenant du code Python. Le code peut être constitué de fonctions, de classes et de variables.      On peut aussi importer un module dans un autre fichier Python.
 
   1. A quoi ressemble un package ?
 
+     Un package en python est un ensemble de modules regroupés dans un dossier. Il contient un fichier appelé ‘__init__.py’ qui indique      à Python que le répertoire doit être considéré comme un package.
+
   1. Créer un code python utilisant sous forme de module addition.py
 
-  1. A quoi sert pip ? 
+     import * from addition
+     print (“le résultat est :”, add(1,2))
+
+
+  1. A quoi sert pip ?
+
+     Pip est un gestionnaire de paquets pour python, il permet d’installer et de gérer des packages.
 
   1. A quoi sert PYTHONPATH ?
 
+     PYTHONPATH est une variable d’environnement qui indique dans quel répertoire il est nécessaire de chercher le module ou package         demandé.
+
   1. Où sont stockés les paquets installé par pip ?
 
-  1. A quoi sert pip install –user ? 
+     Les paquets installés par pip sont stockés dans le répertoire : site-packages. Ce répertoire n’a pas toujours le même emplacement       mais pour savoir où il est on peut utiliser la commande : pip show.
 
-  1. A quoi sert venv ? 
+  1. A quoi sert pip install –user ?
+
+     La commande pip install -user sert à installer des packages seulement pour cet utilisateur et non pas pour l’ensemble du système.
+
+  1. A quoi sert venv ?
+
+     Venv sert à créer et gérer des environnements virtuels pour Python.
 
   1. Comment utiliser venv ?
 
+     On utilise venv afin de créer un environnement en écrivant : python -m venv <environment name>
+
   1. A quoi sert docker ?
 
+     La plateforme logicielle docker sert à simplifier le développement, le déploiement et la gestion des applications en utilisant des      conteneurs légers et portables qui permettent la création d'environnements isolés.
+
   1. Comment utiliser docker ?
+
+     Il faut l’installer sur notre système d’exploitation puis pour le lancer il faut écrire la commande : docker run -it ubuntu.
 
 ## Exercice 0
 
